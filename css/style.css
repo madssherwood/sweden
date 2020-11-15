@@ -1,0 +1,117 @@
+/* Stylesheet 2019*/
+
+@font-face {
+    font-family: 'Geo';
+    src: url('../font/Geo/geo-regular-webfont.woff2') format('woff2'),
+         url('../font/abel/geo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #E5EEF4;
+}
+
+.jumbotron {
+  background-color: #005594;
+  font-family: 'Geo';
+  font-size: 20px;
+  text-align: center;
+  color: #EFD201;
+  padding: 1;
+}
+
+.map {
+    border: medium solid #999;
+    height: 615px;
+    border-width: 2px;
+    margin: 10px 0 0 20px;
+}
+
+.retrieve {
+    position: absolute;
+    right: 10px;
+    height: 175px;
+    width: 55%;
+    margin: 10px; 
+    float: right;
+    font-size: 10pt;
+    border: medium solid #999;
+    border-width: 2px;
+}
+
+.retrieve h1{
+    font-size: 14pt;
+}
+
+.party {
+    height: 176px;
+    width: 55%;
+    margin: 10px;
+    float: right;
+    font-size: 10pt;
+    position: absolute;
+    top: 600px;
+    right: 10px;
+    border: medium solid #999;
+    border-width: 2px;
+}
+
+.gratBackground {
+    fill: #F7FBFF;
+}
+
+.gratLines {
+    fill: none;
+    stroke: #C6DBEF;
+    stroke-width: 0.33px;
+}
+
+.countries {
+    fill: #DEEBF7;
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+.provinceMap {
+    stroke: #fff;
+    stroke-width: 0.25px;
+    stroke-linecap: round;
+}
+
+.dropdown {
+    position: absolute;
+    top: 185px;
+    left: 45px;
+    z-index: 10;
+    font-family: monospace;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+option {
+    font-weight: normal;
+}
+
+#my_dataviz {
+    float: right;
+    position: absolute;
+    top: 355px;
+    right: 10px;
+    height: 250px;
+    width: 55%;
+    margin: 0 10 20 30;
+
+}
+
+
+.axis {
+  opacity: 0.4;
+}
+.axis:hover {
+  opacity: 1;
+}
